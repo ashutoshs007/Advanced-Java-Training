@@ -1,7 +1,7 @@
 # Assessment 3 – Hibernate CRUD
 
 ## 📌 Objective
-To develop a console-based Restaurant Management System using Hibernate ORM.
+To develop a console-based **Restaurant Management System** using Hibernate ORM and MySQL.
 
 ---
 
@@ -16,9 +16,9 @@ To develop a console-based Restaurant Management System using Hibernate ORM.
 
 ## 📌 Database Table
 
-**Table Name:** menu_item
+**Table Name:** `menu_item`
 
-Fields:
+**Fields:**
 
 - id (Primary Key)
 - name
@@ -34,18 +34,19 @@ Fields:
 - Hibernate ORM
 - MySQL
 - Maven
+- IntelliJ IDEA
 
 ---
 
 ## 📌 Hibernate Concepts Demonstrated
 
-✔ Hibernate Configuration (hibernate.cfg.xml)  
+✔ Hibernate Configuration (`hibernate.cfg.xml`)  
 ✔ Entity Mapping using Annotations  
 ✔ SessionFactory Creation  
 ✔ Session Handling  
 ✔ Transaction Management  
 ✔ HQL Queries  
-✔ Resource Management  
+✔ Proper Resource Management  
 
 ---
 
@@ -63,16 +64,37 @@ Fields:
 ✔ JDBC URL  
 ✔ Username / Password  
 ✔ Dialect  
-✔ hbm2ddl.auto = update  
-✔ show_sql = true  
-✔ format_sql = true  
+✔ `hbm2ddl.auto = update`  
+✔ `show_sql = true`  
+✔ `format_sql = true`  
+
+---
+
+## 📸 Application Screenshots
+
+### ✅ Console Menu
+![Console Menu](console-menu.png)
+
+---
+
+### ✅ Insert Operation
+![Insert Operation](insert-operation.png)
+
+---
+
+### ✅ MySQL Table Data
+![MySQL Table](mysql-table.png)
 
 ---
 
 ## ✅ Result
-Application successfully performs CRUD operations with MySQL database.
+Application successfully performs **CRUD operations** using Hibernate ORM with MySQL database.
+
+✔ All functionalities tested and verified successfully.
+✔ Database operations executed correctly.
 
 ---
-✅ All functionalities tested and verified successfully.
 
-
+## 👨‍💻 Author
+Ashutosh  
+B.Tech CSE
