@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- JDBC Driver -->
+        <property name="hibernate.connection.driver_class">
+            com.mysql.cj.jdbc.Driver
+        </property>
+
+        <!-- Database URL -->
+        <property name="hibernate.connection.url">
+            jdbc:mysql://localhost:3306/restaurant_db
+        </property>
+
+        <!-- Username -->
+        <property name="hibernate.connection.username">
+            root
+        </property>
+
+        <!-- Password -->
+        <property name="hibernate.connection.password">
+            system
+        </property>
+
+        <!-- Dialect -->
+        <property name="hibernate.dialect">
+            org.hibernate.dialect.MySQLDialect
+        </property>
+
+        <!-- Auto Table Creation -->
+        <property name="hibernate.hbm2ddl.auto">
+            update
+        </property>
+
+        <!-- SQL Output -->
+        <property name="hibernate.show_sql">
+            true
+        </property>
+
+        <property name="hibernate.format_sql">
+            true
+        </property>
+
+        <!-- Entity Mapping -->
+        <mapping class="org.example.MenuItem"/>
+
+    </session-factory>
+</hibernate-configuration>
